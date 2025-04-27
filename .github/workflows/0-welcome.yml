@@ -54,5 +54,6 @@ jobs:
         uses: skills/action-update-step@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          from_step: 0
+          from_step: tonkeeper 
+          
           to_step: 1
